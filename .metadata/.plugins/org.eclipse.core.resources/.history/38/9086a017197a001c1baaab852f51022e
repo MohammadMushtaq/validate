@@ -1,0 +1,5 @@
+package com.xworkz.util;
+
+public class SingletonEMFUtil {
+
+}

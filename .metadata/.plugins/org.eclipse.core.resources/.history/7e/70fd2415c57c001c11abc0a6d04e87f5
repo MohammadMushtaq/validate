@@ -1,0 +1,16 @@
+package com.xworkz.cosmetics;
+
+import com.xworkz.cosmetics.dao.CosmeticDAO;
+import com.xworkz.cosmetics.dao.CosmeticDAOImpl;
+import com.xworkz.cosmetics.entity.CosmeticEntity;
+
+public class CosmeticScanner {
+
+	public static void main(String[] args) {
+		
+		CosmeticEntity cosmeticEntity= new CosmeticEntity("mushtaq", "trimer", 8214550382l, "bangalore", 583101,"male", 1, "trimer", 2, 2450.5, "hair remove", "2020-05-01");
+		CosmeticDAO cosmeticDAO= new CosmeticDAOImpl();
+		cosmeticDAO.save(cosmeticEntity);
+	}
+
+}

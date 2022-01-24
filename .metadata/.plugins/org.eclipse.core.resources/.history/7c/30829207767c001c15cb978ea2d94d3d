@@ -1,0 +1,11 @@
+package com.xworkz.cosmetics;
+
+public class CosmeticScanner {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

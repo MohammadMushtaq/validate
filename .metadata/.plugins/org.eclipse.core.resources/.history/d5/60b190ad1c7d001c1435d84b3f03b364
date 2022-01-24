@@ -1,0 +1,29 @@
+package com.xworkz.cosmetics.service;
+
+import com.xworkz.cosmetics.dao.CosmeticDAO;
+import com.xworkz.cosmetics.entity.CosmeticEntity;
+
+public class CosmeticServiceImpl implements CosmeticService {
+
+	private CosmeticDAO dao;
+	private boolean valid;
+
+	@Override
+	public boolean validateAndSave(CosmeticEntity entity) {
+		try {
+
+			if (entity.getName() != null && entity.getName().isEmpty() && entity.getName().length() > 3 && entity.getName().length() < 25) {
+				if (valid)dao.save(entity);
+				
+			}
+
+			else {
+				System.err.println("not valid");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+
+}

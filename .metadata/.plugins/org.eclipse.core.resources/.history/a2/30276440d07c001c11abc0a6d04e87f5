@@ -1,0 +1,40 @@
+package com.xworkz.cosmetics;
+
+import com.xworkz.cosmetics.dao.CosmeticDAO;
+import com.xworkz.cosmetics.dao.CosmeticDAOImpl;
+import com.xworkz.cosmetics.entity.CosmeticEntity;
+
+public class CosmeticScanner {
+
+	public static void main(String[] args) {
+		
+//		CosmeticEntity cosmeticEntity= new CosmeticEntity("mushtaq", "trimer", 8214550382l, "bangalore", 583101,"male", 1, "trimer", 2, 2450.5, "hair remove", "2020-05-01");
+//		CosmeticDAO cosmeticDAO= new CosmeticDAOImpl();
+//		cosmeticDAO.save(cosmeticEntity);
+		
+		
+		int num=123;int num1=num;
+		int t1=0;
+		int len=0;
+		while(num1!=0) {
+			t1=t1%num1;
+			len=len+1;
+		}
+		int t2=num;
+		int arm=0;
+		while(t2!=num) {
+			int mul=1;
+			for (int i = 0; i <=len; i++) {
+				int rem=t2%num;
+				mul= mul*rem;
+				
+			}
+			arm= arm+mul;
+		}if(num==arm) {
+			System.out.println(num+" "+"num is amstrong");
+		}else{
+			System.out.println(num+" "+"num is not amstrong");
+		}
+	}
+
+}

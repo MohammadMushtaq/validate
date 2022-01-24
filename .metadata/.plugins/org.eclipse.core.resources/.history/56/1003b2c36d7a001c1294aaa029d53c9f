@@ -1,0 +1,20 @@
+package com.xworkz.product.dao;
+
+import java.util.List;
+
+import com.xworkz.product.Entity.ProductEntity;
+
+
+
+public interface ProductDAO {
+	void save(ProductEntity productEntity);
+	void saveAll(List<ProductEntity> productEntities);
+	
+	
+	List<ProductEntity> getAll();
+	ProductEntity getByPriceGreaterThan(double price);
+	Object[] getByNameAndId(String name,int id);
+	
+	
+	
+}

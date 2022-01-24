@@ -1,0 +1,143 @@
+package com.xworkz.cosmetics.service;
+
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
+
+import com.xworkz.cosmetics.dao.CosmeticDAO;
+import com.xworkz.cosmetics.dao.CosmeticDAOImpl;
+import com.xworkz.cosmetics.entity.CosmeticEntity;
+
+public class CosmeticServiceImpl implements CosmeticService {
+
+	private CosmeticDAO dao = new CosmeticDAOImpl();
+
+	@Override
+	public boolean validateAndSave(CosmeticEntity entity) {
+		try {
+			boolean valid = true;
+			
+//			if (entity.getName() != null && entity.getName().length() > 3 && entity.getName().length() < 25
+//				) {
+//				if (entity.getEmail() != null ) {
+//					
+//					if(entity.getPhonenumber()!=0) {
+//						if(valid)dao.save(entity);
+//						//return valid;
+//					}
+//					else {
+//						System.err.println("wrong num");
+//					}
+//					
+//				}
+//				else {
+//					System.err.println("in valid email");
+//				}
+//				
+//			}
+//				else {
+//					System.err.println("inavlid name");
+//				}
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//		return false;
+//	}
+//
+//}
+		
+			
+			
+			
+			
+			
+		if (entity.getName() != null && entity.getName().length() > 3 && entity.getName().length() < 25
+					) {
+
+				if (entity.getEmail() != null&& entity.getEmail().endsWith(".com")) {
+
+					if (entity.getPhonenumber() != 0 && entity.getPhonenumber() > 0 && entity.getPhonenumber() <= 10) {
+
+						if (entity.getAddress() != null && entity.getAddress().length() > 10
+								&& entity.getAddress().length() < 50) {
+
+							if (entity.getPincode() != 0 && entity.getPincode() > 5 && entity.getPincode() < 7) {
+
+								if (entity.getGender() != null && entity.getGender().length() > 3
+										&& entity.getGender().length() < 6) {
+
+									if (entity.getOId() != 0 && entity.getOId() > 0 && entity.getOId() < 5) {
+
+										if (entity.getPname() != null && entity.getPname().isEmpty()) {
+
+											if (entity.getPquantity() != 0 && entity.getPquantity() > 0
+													&& entity.getPquantity() < 1000) {
+
+												if (entity.getPrice() != 0 && entity.getPrice() > 0) {
+
+													if (entity.getPtype() != null) {
+
+														if (entity.getLocalDate() != null) {
+
+															if (entity.getCreatedBy() != null) {
+
+																if (entity.getCreatedAt() != null) {
+																	
+																	if(entity.getPassword()!=null && entity.getPassword().length()>4) {
+																		if (valid)dao.save(entity);
+																	}
+																		else {
+																		System.out.println("invalid password");
+																	}
+																}
+																	else {
+																		System.out.println("not valid dateandtime");
+																	}
+																} else {
+																	System.err.println("not valid name");
+																}
+															} else {
+																System.err.println("invalid date");
+															}
+														} else {
+															System.err.println("type not valid");
+														}
+													}
+
+													else {
+														System.err.println("price not valid");
+													}
+												} else {
+													System.err.println("invalid quantity");
+												}
+											} else {
+												System.out.println("invalid product name");
+											}
+										} else {
+											System.err.println("invalid oredrid");
+										}
+									} else {
+										System.err.println("invalid gender");
+									}
+								} else {
+									System.err.println("invalid pincode");
+								}
+							} else {
+								System.err.println("invalid address");
+							}
+						} else {
+							System.err.println("phonenum not valid");
+						}
+
+					} else {
+						System.err.println("invalid email");
+					}
+				} else {
+					System.err.println("invalid name");
+				}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+}

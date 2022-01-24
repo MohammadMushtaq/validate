@@ -1,0 +1,5 @@
+package com.xworkz.cosmetics.entity;
+
+public class CosmeticEntity {
+
+}
