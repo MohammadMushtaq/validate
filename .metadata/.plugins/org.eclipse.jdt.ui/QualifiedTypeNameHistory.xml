@@ -39,9 +39,16 @@
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.util.regex.PatternSyntaxException"/>
+    <fullyQualifiedTypeName name="com.xworkz.cosmetics.service.CosmeticService"/>
     <fullyQualifiedTypeName name="com.xworkz.cosmetics.entity.CosmeticEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.cosmetics.service.CosmeticServiceImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.cosmetics.dao.CosmeticDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.cosmetics.dao.CosmeticDAOImpl"/>
 </qualifiedTypeNameHistroy>

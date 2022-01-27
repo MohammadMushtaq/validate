@@ -1,0 +1,34 @@
+package com.xworkz.cosmetics;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import com.xworkz.cosmetics.dao.CosmeticDAO;
+import com.xworkz.cosmetics.dao.CosmeticDAOImpl;
+import com.xworkz.cosmetics.entity.CosmeticEntity;
+import com.xworkz.cosmetics.service.CosmeticService;
+import com.xworkz.cosmetics.service.CosmeticServiceImpl;
+
+public class CosmeticScanner {
+
+	public static void main(String[] args) {
+		
+		CosmeticEntity cosmeticEntity= new CosmeticEntity("mushtaq", "null", 8214550382l, "bangalore", 583101,"male", 1, "trimer", 2, 2450.5, "hair remove",LocalDate.now(),"mushtaq",LocalDateTime.now(),"naveen",LocalDateTime.now(),"password");
+		
+		CosmeticEntity coEntity = new CosmeticEntity("mushtaq", "mushtaq.xworkz@gmail.com", 8217450387l, "bangalore", 583101,"male", 1, "trimer", 2, 2450.5, "hair remove",LocalDate.now(),"mushtaq",LocalDateTime.now(),"mushtaq@1");
+		CosmeticEntity coEntity1 = new CosmeticEntity("ahamad", "ahamad.xworkz@gmail.com", 921745054l, "bellary", 583102,"male", 2, "comb", 3, 245.5, "hairstyle",LocalDate.now(),"mushtaq",LocalDateTime.now(),"password@123");
+		CosmeticEntity coEntity2 = new CosmeticEntity("priya", "priya.xworkz@gmail.com", 9217148547l, "mysore", 583105,"female", 4, "nailpolish", 3, 245.5, "madicure",LocalDate.now(),"mushtaq",LocalDateTime.now(),"priya@654");
+		CosmeticEntity coEntity3 = new CosmeticEntity("ravi kumar", "ravi.xworkz@gmail.com", 9874531668l, "hospet", 583105,"male", 5, "comb", 3, 245.5, "hairstyle",LocalDate.now(),"mushtaq",LocalDateTime.now(),"password@123");
+
+		
+		CosmeticDAO cosmeticDAO= new CosmeticDAOImpl();
+		cosmeticDAO.save(coEntity2);
+		
+//		CosmeticService cosmeticService = new CosmeticServiceImpl();
+//		cosmeticService.validateAndSave(coEntity);
+//		
+	
+		
+	}
+
+}
