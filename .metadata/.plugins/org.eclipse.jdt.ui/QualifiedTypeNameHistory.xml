@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.Session"/>
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.SessionFactory"/>
     <fullyQualifiedTypeName name="java.lang.invoke.ClassSpecializer.Factory"/>
     <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
-    <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
     <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
     <fullyQualifiedTypeName name="com.xworkz.company.entity.CompanyEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.company.dao.CompanyDAO"/>
@@ -19,14 +15,11 @@
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="antlr.collections.List"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="com.xworkz.util.SingletonEMFUtil"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.xworkz.product.dao.ProductDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.product.dao.ProductDAOImpl"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
     <fullyQualifiedTypeName name="javax.persistence.Query"/>
     <fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -35,15 +28,8 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.math.BigInteger"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.util.regex.PatternSyntaxException"/>
     <fullyQualifiedTypeName name="com.xworkz.cosmetics.service.CosmeticService"/>
@@ -51,4 +37,27 @@
     <fullyQualifiedTypeName name="com.xworkz.cosmetics.service.CosmeticServiceImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.cosmetics.dao.CosmeticDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.cosmetics.dao.CosmeticDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.register.entity.RegisterEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.register.service.RegisterService"/>
+    <fullyQualifiedTypeName name="com.xworkz.register.service.RegisterServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.register.dao.RegisterDao"/>
+    <fullyQualifiedTypeName name="com.xworkz.register.dao.RegeisterDAOImpl"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="com.xworkz.util.SingletonEMFUtil"/>
+    <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.xworkz.vendor.entity.VendorEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.vendor.dao.VendorDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.vendor.VendorTester"/>
+    <fullyQualifiedTypeName name="com.xworkz.vendor.service.VendorService"/>
+    <fullyQualifiedTypeName name="com.xworkz.vendor.service.VendorServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.vendor.dao.VendorDAO"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 </qualifiedTypeNameHistroy>

@@ -8,6 +8,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="vendor"/>
+			<item value="regiter"/>
 			<item value="cosmetics"/>
 			<item value="jpa-util"/>
 			<item value="Product"/>

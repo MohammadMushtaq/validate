@@ -15,7 +15,7 @@ public class RegisterServiceImpl implements RegisterService{
 		try {
 			boolean valid = true;
 			
-			if(entity.getUserName()!=null&&entity.getUserName().length()>4 &&
+			if(entity.getUserName()!=null && entity.getUserName().length()>4 &&
 					entity.getUserName().length()<=25) {
 				valid=true;
 			}else {
