@@ -1,6 +1,0 @@
-package com.xworkz.product.dao;
-
-public interface ProductDAO {
-	
-	
-}

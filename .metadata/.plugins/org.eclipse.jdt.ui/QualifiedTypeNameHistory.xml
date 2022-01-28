@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.SessionFactory"/>
-    <fullyQualifiedTypeName name="java.lang.invoke.ClassSpecializer.Factory"/>
     <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
     <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
@@ -20,10 +18,7 @@
     <fullyQualifiedTypeName name="com.xworkz.product.dao.ProductDAOImpl"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="javax.persistence.Query"/>
-    <fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
     <fullyQualifiedTypeName name="com.xworkz.product.Entity.ProductEntity"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
@@ -48,16 +43,21 @@
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="com.xworkz.util.SingletonEMFUtil"/>
     <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
     <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="com.xworkz.vendor.entity.VendorEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.vendor.dao.VendorDAOImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.vendor.VendorTester"/>
     <fullyQualifiedTypeName name="com.xworkz.vendor.service.VendorService"/>
     <fullyQualifiedTypeName name="com.xworkz.vendor.service.VendorServiceImpl"/>
-    <fullyQualifiedTypeName name="com.xworkz.vendor.dao.VendorDAO"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
+    <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.Query"/>
+    <fullyQualifiedTypeName name="com.xworkz.vendor.dao.VendorDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.vendor.entity.VendorEntity"/>
+    <fullyQualifiedTypeName name="javax.persistence.NamedNativeQueries"/>
+    <fullyQualifiedTypeName name="javax.persistence.NamedNativeQuery"/>
 </qualifiedTypeNameHistroy>

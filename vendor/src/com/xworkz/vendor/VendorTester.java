@@ -21,7 +21,11 @@ public class VendorTester {
 		VendorDAO vendorDAO = new VendorDAOImpl();
 		
 		VendorService vendorService = new VendorServiceImpl(vendorDAO);
-		vendorService.validateAndSave(vendorEntity4);
+		//vendorService.validateAndSave(vendorEntity4);
+		
+		vendorService.validateLoginAndPassword("anil kumar", "anil453");
+		
+		vendorService.validateEmailAndChangePassword("vamshik@gmail.com", "vamshi@888");
 		
 	}
 

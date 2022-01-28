@@ -5,5 +5,6 @@ import com.xworkz.cosmetics.entity.CosmeticEntity;
 public interface CosmeticDAO {
 	
 	void save(CosmeticEntity cosmeticEntity);
+	
 
 }
