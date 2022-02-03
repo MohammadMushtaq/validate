@@ -14,4 +14,19 @@
 <bean id="tablet1" class="pharmacy.bean.Tablet"></bean>
 <bean id="purifier" class="pharmacy.bean.Purifier"></bean>
 <bean id="purifier1" class="pharmacy.bean.Purifier"></bean>
+<bean id="steamer" class="pharmacy.bean.Steamer"></bean>
+<bean id="steamer1" class="pharmacy.bean.Steamer"></bean>
+<bean id="tissue" class="pharmacy.bean.Tissue"></bean>
+<bean id="tissue1" class="pharmacy.bean.Tissue"></bean>
+<bean id="oximeter" class="pharmacy.bean.Oximeter"></bean>
+<bean id="oximeter1" class="pharmacy.bean.Oximeter"></bean>
+<bean id="paint" class="pharmacy.bean.Paint"></bean>
+<bean id="paint1" class="pharmacy.bean.Paint"></bean>
+<bean id="sanitizer" class="pharmacy.bean.Sanitizer"></bean>
+<bean id="sanitizer1" class="pharmacy.bean.Sanitizer"></bean>
+<bean id="mask" class="pharmacy.bean.Mask"></bean>
+<bean id="mask1" class="pharmacy.bean.Mask"></bean>
+<bean id="juice" class="pharmacy.bean.Juice"></bean>
+<bean id="juice1" class="pharmacy.bean.Juice"></bean>
 </beans>
+
