@@ -31,17 +31,19 @@ public class SpringDirector {
 		 
 			
 		String  stringPath = spring.getBean(String.class);
-		Locale TEAM = new Locale("upper");
-		System.out.println(stringPath.toUpperCase(TEAM));
+		int name=stringPath.hashCode();
+		System.out.println(name);
 		
+		Tablet tab = spring.getBean("tablet",Tablet.class);
+		tab.cure();
+		Tablet tab1 = spring.getBean("tablet1",Tablet.class);
+		tab1.preventvirus();
 		
-//		Integer i= 7;
-//		Integer in= spring.getBean(Integer.class);
-//		System.out.println(i.toString());
-//		
-//		Boolean b=true;
-//		Boolean b1=spring.getBean(Boolean.class);
-//		
+		Purifier pu= spring.getBean(Purifier.class);
+		pu.cleanWater();
+		
+		Purifier pu1= spring.getBean(Purifier.class);
+		pu1.cleargems();
 				 
 	}
 

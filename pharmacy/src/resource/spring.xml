@@ -10,8 +10,8 @@
 <bean id="corona" class="pharmacy.bean.Corona"></bean>
 <bean id="minister" class="pharmacy.bean.Minister"></bean>
 <bean id="string" class="java.lang.String"></bean>
-<bean id="integer" class="java.lang.Integer"></bean>
-<bean id="boolean" class="java.lang.Boolean"></bean>
-<bean id="double" class="java.lang.Double"></bean>
-
+<bean id="tablet" class="pharmacy.bean.Tablet"></bean>
+<bean id="tablet1" class="pharmacy.bean.Tablet"></bean>
+<bean id="purifier" class="pharmacy.bean.Purifier"></bean>
+<bean id="purifier1" class="pharmacy.bean.Purifier"></bean>
 </beans>
