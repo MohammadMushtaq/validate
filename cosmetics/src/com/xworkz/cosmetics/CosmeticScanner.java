@@ -22,13 +22,13 @@ public class CosmeticScanner {
 		CosmeticEntity coEntity4 = new CosmeticEntity("anusha", "anusharymec@gmail.com", 948057866l, "hampi", 583615,"female", 7, "make up set", 5, 1456, "Allproduct",LocalDate.now(),"mushtaq",LocalDateTime.now(),"anushap&@123");
 
 		
-		CosmeticDAO cosmeticDAO= new CosmeticDAOImpl();
+	//	CosmeticDAO cosmeticDAO= new CosmeticDAOImpl();
 	//	cosmeticDAO.save(coEntity4);
 		
 
 		
-		//		CosmeticService cosmeticService = new CosmeticServiceImpl();
-//		cosmeticService.validateAndSave(coEntity);
+		CosmeticService cosmeticService = new CosmeticServiceImpl();
+		cosmeticService.validateAndSave(coEntity4);
 //		
 	
 		

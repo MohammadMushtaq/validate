@@ -8,6 +8,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="spring_dependency"/>
+			<item value="hikari"/>
 			<item value="spring"/>
 			<item value="vendor"/>
 			<item value="regiter"/>

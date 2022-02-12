@@ -8,12 +8,11 @@ import com.xworkz.cosmetics.dao.CosmeticDAOImpl;
 import com.xworkz.cosmetics.entity.CosmeticEntity;
 
 public class CosmeticServiceImpl implements CosmeticService {
+	
+	public CosmeticDAO dao;
 
-	//private CosmeticDAO dao = new CosmeticDAOImpl();
-	private CosmeticDAO dao;
-	CosmeticServiceImpl() {
-		this.dao= dao;
-	}
+	
+
 	@Override
 	public boolean validateAndSave(CosmeticEntity entity) {
 		try {
@@ -137,4 +136,7 @@ public class CosmeticServiceImpl implements CosmeticService {
 		}
 		return false;
 	}
+
+
+
 }

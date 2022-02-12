@@ -76,6 +76,7 @@ public class ProductDAOImpl implements ProductDAO {
 		try {
 			Query query = entityManager.createNamedQuery("getByPriceGreaterThan");
 			query.setParameter("pri", price);
+			
 			return (List<ProductEntity>) query.getResultList();
 		} catch (PersistenceException e) {
 			entityManager.getTransaction().rollback();

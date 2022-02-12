@@ -17,9 +17,9 @@ import lombok.NoArgsConstructor;
 @Entity
 
 @Table(name = "product_detail")
-@NamedQueries({ @NamedQuery(name = "getAll", query = "select product from ProductEntity product"),
-		@NamedQuery(name = "getByPriceGreaterThan", query = "select product from ProductEntity product where product.price >: pri"),
-		@NamedQuery(name = "getByPriceLesserThan", query = "select product.price from ProductEntity product where product.price >: pri"),
+		@NamedQueries({ @NamedQuery(name = "getAll", query = "select product from ProductEntity product"),
+		@NamedQuery(name = "getByPriceGreaterThan", query = "select product.price from ProductEntity product where product.price >:pri"),
+		@NamedQuery(name = "getByPriceLesserThan", query = "select product.price from ProductEntity as product where product.price >:pri"),
 		@NamedQuery(name = "getByNameAndId", query = "select product from ProductEntity product where product.name=:nam and product.id=:id"),
 		@NamedQuery(name = "getTotal", query = "select count(product) from ProductEntity product"),
 		@NamedQuery(name = "getMaxPrice", query = "select product from ProductEntity product where product.price= (select max(product.price) from ProductEntity product)"),

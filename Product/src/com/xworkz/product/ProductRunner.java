@@ -86,12 +86,12 @@ public class ProductRunner {
 //		System.out.print("product name="+name+", ");
 //		System.out.println("product price="+price+" ");
 //	}
-		List<Object[]> aaa = productDAO.getNameAndPriceByBrand("apple");
-		for (Object[] objects : aaa) {
-			String name = (String) objects[0];
-			Double price = (Double) objects[1];
-			System.out.print("product name=" + name + ", ");
-			System.out.println("product price=" + price + " ");
-		}
+//		List<Object[]> aaa = productDAO.getNameAndPriceByBrand("apple");
+//		for (Object[] objects : aaa) {
+//			String name = (String) objects[0];
+//			Double price = (Double) objects[1];
+//			System.out.print("product name=" + name + ", ");
+//			System.out.println("product price=" + price + " ");
+//		}
 	}
 }

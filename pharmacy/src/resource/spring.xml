@@ -30,3 +30,5 @@
 <bean id="juice1" class="pharmacy.bean.Juice"></bean>
 </beans>
 
+
+
